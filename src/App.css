@@ -1,3 +1,64 @@
-.App {
+/* Referencing: https://programandosolucoes.dev.br/2021/06/22/card-html-css/ */
+
+/* referencing: https://qastack.com.br/programming/11184117/transparent-css-background-color  */
+
+body {
+  background-image: url('https://scitechdaily.com/images/Vast-Universe-Concept.gif');
+  /* background-size: cover; */
+}
+
+.cardMission {
+  border-radius: 10px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 150px;
+  transition: all 0.3s ease-out;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cardMission:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+};
+
+.cardPlanet:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+header {
   text-align: center;
+  font-size: 25px;
+  color: #FFA500;
+}
+
+h2 {
+  text-align: center;
+  color: #FFD700;
+
+}
+
+h3 {
+  text-align: center;
+  color: #F0E68C;
+  font-size: 20px;
+}
+
+img {
+  width: 250px;
+}
+
+p {
+  text-align: left;
+  color: white;
+  font-size: 18px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
 }
