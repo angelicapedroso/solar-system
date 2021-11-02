@@ -5,6 +5,7 @@
 body {
   background-image: url('https://scitechdaily.com/images/Vast-Universe-Concept.gif');
   /* background-size: cover; */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cardMission {
@@ -20,12 +21,14 @@ body {
 .cardMission:hover {
   transform: translateY(-5px);
   cursor: pointer;
-};
+  background-color: black;
+}
 
 .cardPlanet:hover {
   transform: translateY(-5px);
   cursor: pointer;
   transition: all 0.3s ease-out;
+  background-color: black;
 }
 
 header {
@@ -37,7 +40,6 @@ header {
 h2 {
   text-align: center;
   color: #FFD700;
-
 }
 
 h3 {
@@ -54,6 +56,10 @@ p {
   text-align: left;
   color: white;
   font-size: 18px;
+}
+
+.planets {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 section {

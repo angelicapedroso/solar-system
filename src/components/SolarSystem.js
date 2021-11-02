@@ -11,7 +11,7 @@ class SolarSystem extends Component {
         <h2>
           <Title headline="Planetas" />
         </h2>
-        <section>
+        <section className="planets">
           {planets.map((planet) => (
             <PlanetCard
               key={planet.name}
