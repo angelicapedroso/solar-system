@@ -8,9 +8,9 @@ class SolarSystem extends Component {
     return (
       <>
         <div data-testid="solar-system" />
-        <h2>
+        <h3>
           <Title headline="Planetas" />
-        </h2>
+        </h3>
         <section className="planets">
           {planets.map((planet) => (
             <PlanetCard

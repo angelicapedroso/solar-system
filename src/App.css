@@ -33,12 +33,13 @@ header {
   text-align: center;
 }
 
-h2 {
+h3 {
   color: gold;
   text-align: center;
+  font-size: 25px;
 }
 
-h3 {
+h4 {
   color: khaki;
   font-size: 20px;
   text-align: center;
