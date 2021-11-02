@@ -1,6 +1,6 @@
 /* Referencing: https://programandosolucoes.dev.br/2021/06/22/card-html-css/ */
 body {
-  background-color: rgba(1, 1, 1, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   background-image: url('https://scitechdaily.com/images/Vast-Universe-Concept.gif');
   font-family: Verdana , Geneva , Tahoma , sans-serif;
 }
@@ -35,8 +35,8 @@ header {
 
 h3 {
   color: gold;
-  text-align: center;
   font-size: 25px;
+  text-align: center;
 }
 
 h4 {
